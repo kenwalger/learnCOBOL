@@ -1,0 +1,11 @@
+{
+  "name": "learncobol",
+  "version": "1.0.0",
+  "description": "Automation for COBOL program",
+  "main": "index.js",
+  "scripts": {
+    "clg": "zowe jobs submit ds 'Z81415.JCL(HELLO)' -d ."
+  },
+  "author": "Ken W. Alger",
+  "license": "ISC"
+}
