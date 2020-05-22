@@ -20,9 +20,9 @@
            05  FILLER         PIC X(02) VALUE SPACES.
            05  LAST-NAME-O    PIC X(20).
            05  FILLER         PIC X(02) VALUE SPACES.
-           05  ACCT-LIMIT-O   PIC ZZ,ZZZ,ZZ9.99.
+           05  ACCT-LIMIT-O   PIC $$,$$$,$$9.99.
            05  FILLER         PIC X(02) VALUE SPACES.
-           05  ACCT-BALANCE-O PIC ZZ,ZZZ,ZZ9.99.
+           05  ACCT-BALANCE-O PIC $$,$$$,$$9.99.
            05  FILLER         PIC X(02) VALUE SPACES.
       *
        FD  ACCT-REC RECORDING MODE F.
@@ -41,7 +41,7 @@
       *
        WORKING-STORAGE SECTION.
        01 FLAGS.
-         05 LASTREC           PIC X VALUE SPACE.
+          05 LASTREC           PIC X VALUE SPACE.
       *
        01  HEADER-1.
            05  FILLER         PIC X(20) VALUE 'Financial Report for'.
