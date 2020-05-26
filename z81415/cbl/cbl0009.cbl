@@ -44,7 +44,7 @@
            05 LASTREC          PIC X VALUE SPACE.
       *
        01  TLIMIT-TBALANCE.
-           05 TLIMITED            PIC S9(9)V99 COMP-3 VALUE ZERO.
+           05 TLIMIT              PIC S9(9)V99 COMP-3 VALUE ZERO.
            05 TBALANCE            PIC S9(9)V99 COMP-3 VALUE ZERO.
       *
        01  HEADER-1.

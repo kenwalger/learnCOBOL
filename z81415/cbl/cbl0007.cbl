@@ -137,7 +137,7 @@
       *
        IS-STATE-VIRGINIA.
            IF USA-STATE = 'Virginia' THEN
-              ADD 1 TO VIRGINIA-CLIENTS.
+              ADD 1 TO VIRGINIA-CLIENTS
            END-IF.
       *
        WRITE-RECORD.
